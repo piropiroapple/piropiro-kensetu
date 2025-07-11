@@ -5,56 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>株式会社ピ露ピ露建設</title>
   <style>
-    body { font-family: sans-serif; margin: 0; background: #f9f9f9; color: #333; }
-    header { text-align: center; background-color: #1e3d59; color: white; padding: 40px 20px; }
-    header h1 { margin: 0; font-size: 2.5em; }
-    header p { font-size: 1.2em; }
-
-    .hero {
-      width: 100%;
-      max-height: 600px;
-      overflow: hidden;
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      background: #fff;
+      color: #333;
     }
-
-    .hero img {
+    header {
+      background: #1e3d59;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    img {
       width: 100%;
       height: auto;
       display: block;
     }
-
-    nav {
-      background: #142b40;
-      padding: 10px;
-      text-align: center;
-    }
-
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-    }
-
     main {
-      padding: 30px;
-      max-width: 900px;
+      padding: 20px;
+      max-width: 800px;
       margin: auto;
     }
-
-    section {
-      margin-bottom: 40px;
-    }
-
-    h2 {
-      border-bottom: 2px solid #1e3d59;
-      padding-bottom: 5px;
-    }
-
     footer {
       background: #1e3d59;
       color: white;
       text-align: center;
       padding: 20px;
-      margin-top: 50px;
     }
   </style>
 </head>
@@ -65,47 +42,19 @@
     <p>信頼と実績の総合建設会社</p>
   </header>
 
-  <!-- ヒーロー画像 -->
-  <div class="hero">
-    <img src="house-night.jpg" alt="建築外観（夜）">
-  </div>
-
-  <nav>
-    <a href="#about">会社概要</a>
-    <a href="#services">事業内容</a>
-    <a href="#contact">お問い合わせ</a>
-  </nav>
+  <!-- 建築画像 -->
+  <img src="house-night.jpg" alt="建築パース画像" />
 
   <main>
-    <section id="about">
-      <h2>会社概要</h2>
-      <p>株式会社ピ露ピ露建設は、地域に根ざした建設会社として、住宅・商業施設・公共事業まで幅広く対応しております。</p>
-      <ul>
-        <li><strong>設立：</strong>2020年</li>
-        <li><strong>代表取締役：</strong>草野 弘明</li>
-        <li><strong>所在地：</strong>東京都〇〇区〇〇町1-2-3</li>
-      </ul>
-    </section>
+    <h2>会社概要</h2>
+    <p>株式会社ピ露ピ露建設は住宅・商業施設・公共施設の建設に携わっています。</p>
 
-    <section id="services">
-      <h2>事業内容</h2>
-      <ul>
-        <li>一般住宅の設計・施工</li>
-        <li>リフォーム・リノベーション</li>
-        <li>公共施設・商業ビルの建設</li>
-        <li>土木・基礎工事</li>
-      </ul>
-    </section>
-
-    <section id="contact">
-      <h2>お問い合わせ</h2>
-      <p>お仕事のご相談・お見積もりのご依頼は、以下のメールアドレスまでお願いいたします。</p>
-      <p><strong>Email:</strong> contact@piropiro.co.jp</p>
-    </section>
+    <h2>お問い合わせ</h2>
+    <p>Email: contact@piropiro.co.jp</p>
   </main>
 
   <footer>
-    &copy; 2025 株式会社ピ露ピ露建設 All Rights Reserved.
+    &copy; 2025 株式会社ピ露ピ露建設
   </footer>
 
 </body>
