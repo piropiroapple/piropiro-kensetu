@@ -1,27 +1,74 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>株式会社ピ露ピ露建設</title>
   <style>
     body { font-family: sans-serif; margin: 0; background: #f9f9f9; color: #333; }
-    header { background: #1e3d59; color: white; padding: 40px 20px; text-align: center; }
+    header { text-align: center; background-color: #1e3d59; color: white; padding: 40px 20px; }
     header h1 { margin: 0; font-size: 2.5em; }
     header p { font-size: 1.2em; }
-    nav { background: #142b40; padding: 10px; text-align: center; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; }
-    main { padding: 30px; max-width: 900px; margin: auto; }
-    section { margin-bottom: 40px; }
-    h2 { border-bottom: 2px solid #1e3d59; padding-bottom: 5px; }
-    footer { background: #1e3d59; color: white; text-align: center; padding: 20px; margin-top: 50px; }
+
+    .hero {
+      width: 100%;
+      max-height: 600px;
+      overflow: hidden;
+    }
+
+    .hero img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    nav {
+      background: #142b40;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #1e3d59;
+      padding-bottom: 5px;
+    }
+
+    footer {
+      background: #1e3d59;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
   </style>
 </head>
 <body>
+
   <header>
     <h1>株式会社ピ露ピ露建設</h1>
     <p>信頼と実績の総合建設会社</p>
   </header>
+
+  <!-- ヒーロー画像 -->
+  <div class="hero">
+    <img src="house-night.jpg" alt="建築外観（夜）">
+  </div>
 
   <nav>
     <a href="#about">会社概要</a>
@@ -32,9 +79,7 @@
   <main>
     <section id="about">
       <h2>会社概要</h2>
-      <p>
-        株式会社ピ露ピ露建設は、地域に根ざした建設会社として、住宅・商業施設・公共事業まで幅広く対応しております。
-      </p>
+      <p>株式会社ピ露ピ露建設は、地域に根ざした建設会社として、住宅・商業施設・公共事業まで幅広く対応しております。</p>
       <ul>
         <li><strong>設立：</strong>2020年</li>
         <li><strong>代表取締役：</strong>草野 弘明</li>
@@ -62,6 +107,6 @@
   <footer>
     &copy; 2025 株式会社ピ露ピ露建設 All Rights Reserved.
   </footer>
+
 </body>
 </html>
-
